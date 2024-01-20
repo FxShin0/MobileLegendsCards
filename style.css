@@ -79,6 +79,8 @@
 }
 .parra {
   font-family: "Fira Sans";
+  font-size: 13px;
+  margin-bottom: 2px;
 }
 .link:visited {
   text-decoration: none;
