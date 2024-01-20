@@ -10,7 +10,7 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 1vh;
 }
 .container1 {
   height: 50%;
@@ -68,7 +68,7 @@
 }
 .link {
   align-self: flex-end;
-  padding: 10px 10px 10px 10px;
+  padding: 2% 2% 2% 2%;
   border-style: solid;
   border-radius: 1rem;
   text-decoration: none;
@@ -79,7 +79,7 @@
 }
 .parra {
   font-family: "Fira Sans";
-  font-size: 13px;
+  font-size: 80%;
   margin-bottom: 2px;
 }
 .link:visited {
@@ -91,7 +91,7 @@
 }
 .nombre {
   font-family: "Oswald";
-  font-size: 30px;
+  font-size: 200%;
   margin-bottom: 0;
   margin-top: 0;
 }
