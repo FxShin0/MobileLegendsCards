@@ -10,26 +10,25 @@
 .gral {
   width: 100svw;
   height: 100svh;
-  background-color: white;
+  background-image: url(./img/fondo\ general.avif);
+  background-repeat: repeat;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-size: 16px;
 }
 .container1 {
   height: 50%;
   width: 100%;
   display: flex;
-  justify-content: stretch;
+  justify-content: space-between;
   gap: 2%;
-  background: red;
 }
 .container2 {
   height: 50%;
   width: 100%;
   display: flex;
-  justify-content: stretch;
-  background-color: blue;
+  justify-content: space-between;
   gap: 2%;
 }
 .heroe1 {
