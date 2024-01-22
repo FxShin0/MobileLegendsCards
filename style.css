@@ -1,37 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Oswald&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 /* Settings generales */
 .gral {
-  width: 98vw;
-  height: 98vh;
+  width: 100vw;
+  height: 100vh;
   background-color: black;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 1vh;
+  font-size: 16px;
 }
 .container1 {
   height: 50%;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  gap: 30px;
+  justify-content: stretch;
+  gap: 2%;
 }
 .container2 {
   height: 50%;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  gap: 30px;
+  justify-content: stretch;
+  gap: 2%;
 }
 .heroe1 {
   width: 20%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  border-radius: 2rem;
+  border-radius: 10%;
   overflow: hidden;
   border-style: solid;
   border-color: white;
@@ -41,7 +46,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  border-radius: 2rem;
+  border-radius: 10%;
   overflow: hidden;
   border-style: solid;
   border-color: white;
@@ -62,16 +67,16 @@
   display: flex;
   flex-direction: column;
   color: white;
-  justify-content: center;
+  justify-content: space-around;
   border-top-style: solid;
   border-top-color: white;
-  overflow: auto;
+  overflow: hidden;
 }
 .link {
   align-self: flex-end;
   padding: 2% 2% 2% 2%;
   border-style: solid;
-  border-radius: 1rem;
+  border-radius: 1vw;
   text-decoration: none;
   border-color: white;
   color: white;
@@ -81,7 +86,7 @@
 .parra {
   font-family: "Fira Sans";
   font-size: 80%;
-  margin-bottom: 2px;
+  margin-bottom: 2%;
 }
 .link:visited {
   text-decoration: none;
@@ -92,7 +97,7 @@
 }
 .nombre {
   font-family: "Oswald";
-  font-size: 30px;
+  font-size: 170%;
   margin-bottom: 0;
   margin-top: 0;
 }
