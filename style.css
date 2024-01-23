@@ -92,6 +92,7 @@
   font-family: "Fira Sans";
   font-size: 80%;
   margin-bottom: 2%;
+  padding-left: 2%;
 }
 .link:visited {
   text-decoration: none;
@@ -106,6 +107,7 @@
   margin-bottom: 0;
   margin-top: 0;
   transition: all 0.3s ease;
+  padding-left: 2%;
 }
 .nombre:hover {
   filter: brightness(2);
