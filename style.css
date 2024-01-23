@@ -105,6 +105,10 @@
   font-size: 170%;
   margin-bottom: 0;
   margin-top: 0;
+  transition: all 0.3s ease;
+}
+.nombre:hover {
+  filter: brightness(2);
 }
 /* Settings de gusion */
 .foto-gusion {
